@@ -63,6 +63,4 @@ with st.expander("📄 Show Data Table"):
 csv = plot_df.to_csv(index=False).encode('utf-8')
 st.download_button("📥 Download Filtered Data as CSV", csv, "filtered_cars.csv", "text/csv")
 
-# Footer
-st.markdown("---")
-st.markdown("✅ Built with ❤️ using Streamlit | Data Source: `CARS.csv`")
+
